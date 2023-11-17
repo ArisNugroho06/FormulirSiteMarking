@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Formulir Penolakan Tindakan Kedokteran</title>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>jQuery UI Signature Basics</title>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/south-street/jquery-ui.css" rel="stylesheet">
+    <link href="css/jquery.signature.css" rel="stylesheet">
+    <style>
+    .kbw-signature { 
+        width: 150px; height: 75px;
+    }
+    .kbw-signature1 { 
+        width: 500px; height: 500px;
+        background-image: url(gambar2.png); 
+    }
+    .kbw-signature2 { 
+        width: 500px; height: 500px;
+        background-image: url(gambar1.png); 
+    }
+    </style>
+    <!--[if IE]>
+    <script src="excanvas.js"></script>
+    <![endif]-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/jquery.signature.js"></script>
+    
+    <script>
+        $(function() {
+            var sig = $('#sig').signature();
+        });
+        </script>
+    
+    <script>
+        $(function() {
+            var sig = $('#sig1').signature();
+        });
+        </script>
+
+    <script>
+        $(function() {
+            var sig = $('#sig2').signature();
+        });
+        </script>
+
+    <script>
+        $(function() {
+            var sig = $('#sig3').signature();
+        });
+    </script>
+
+
+  </head>
+  <body>
+    
+
+    <div class="container mt-5" style="text-align: right">
+        <h2>RM. 10 Lanjutan 1</h2>
+      </div>
+    <div class="container mt-3">
+      <table class="table table-bordered" style="border: 1px solid black">
+            <tr>
+            <td width="50%">
+        <div class="row mb-5">
+            <div class="col">
+            <br>
+            <br>
+            <br>
+            <h1 class="text-center">PENANDAAN OPERASI <br> <i>(SITE MARKING)</i></i></h1>
+            </div>
+            </td>
+            <td width="50%">
+            <div class="col">
+            <form>
+                <div class="row align-items-center">
+                <div class="col-md-3">
+                    <label class="col-form-label">No. Rekam Medis</label>
+                </div>
+                <div class="col-md-9">
+                    <input class="form-control" type="text" name="v_01" id="v_01">
+                </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-7">
+                    <div class="row align-items-center">
+                        <div class="col-md-5">
+                        <label class="col-form-label">Nama Lengkap</label>
+                        </div>
+                        <div class="col-md-7">
+                        <input class="form-control" type="text" name="v_02" id="v_02">
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-5">
+                    <div class="row align-items-center">
+                        <div class="col-md-3">
+                        <label class="col-form-label">Nama Keluarga</label>
+                        </div>
+                        <div class="col-md-9">
+                        <input class="form-control" type="text" name="v_03" id="v_03">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                <div class="col-md-7">
+                    <div class="row align-items-center">
+                    <div class="col-md-5">
+                        <label class="col-form-label">Tanggal Lahir</label>
+                    </div>
+                    <div class="col-md-7">
+                        <input class="form-control" type="date" name="v_04" id="v_04">
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="row align-items-center">
+                        <div class="col-md-3">
+                        <label class="col-form-label">Jenis Kelamin</label>
+                        </div>
+                        <div class="col-md-9">
+                        <div class="form-check-inline">
+                            <input type="radio" class="form-check-input" name="t_01" value="laki">
+                            <label>Laki-laki</label>
+                        </div>
+                        <div class="form-check-inline">
+                            <input type="radio" class="form-check-input" name="t_01" value="perempuan" >
+                            <label>Perempuan</label>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="row align-items-center">
+                <div class="col-md-3">
+                    <label class="col-form-label">Ruangan</label>
+                </div>
+                <div class="col-md-9">
+                    <input class="form-control" type="text" name="v_05" id="v_05">
+                </div>
+                </div>
+
+                                    <div class="row align-items-center">
+                                        <div class="col-md-3">
+                                            <label class="col-form-label">Stiker Pasien</label>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <input type="file" name="fileToUpload" id="fileToUpload">
+                                            <input type="submit" value="Upload Image" name="submit">
+                                        </div>
+                                    </div>
+                                </div>
+                           </div>
+                        </form>   
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <table class="table table-bordered" style="border: 1px solid black">
+    <tr>
+        <td>
+            <p>Beri tanda <strong>lingkaran</strong> pada lokasi yang akan dioperasi menggunakan alat penanda atau skin marker</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>PRIA</p>
+            <center><div class="kbw-signature1" id="sig"></div></center>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>WANITA</p>
+            <center><div class="kbw-signature2" id="sig1"></div></center>
+        </td>
+    </tr>
+    </table>
+
+
+            <table class="table text-left" style="border: 1px solid black">
+                <tr>
+                    <td width="20%">Tanda Tangan Pasien/Keluarga</td>
+                    <td><div id="sig2"></div></td>
+                </tr>
+                <tr>
+                    <td width="20%">Tanda Tangan DPJP</td>
+                    <td><div id="sig3"></div></td>
+            </table>
+
+
+       
+      </form>
+    </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
